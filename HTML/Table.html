@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabel </title>
+</head>
+<body>
+    <p><hr>
+        tag < table > memiliki atribut : <br>
+        cellspacing : untuk menentukan jarak antar cell, <br>
+        cellpadding : untuk menentukan jarak isi sel dengan bordernya, <br>
+        width : untuk menentukan lebar tabel, <br>
+        height : untuk menentukan tinggi tabel, <br>
+        bgolor : untuk memberi warna pada background tabel, <br>
+        align : untuk menentukan perataan tabel, <br>
+        border : untuk menentukan tebal border tabel. <br><br>
+
+        tag < tr > dan < td > juga memiliki atribut : <br>
+        align : untuk menentukan perataan text pada isi tabel, <br>
+        valign : untuk menentukan perataan text secara vertical, <br>
+        width : untuk menentukan lebar cell, <br>
+        height : untuk menentukan tinggi cell, <br>
+        bgcolor : untuk memberikan warna background pada cell, <br>
+        rowspan : untuk menggabungkan sel baris berikutnya pada kolom yang sama, <br>
+        colspan : untuk menggabungkan sel kolom berikutnya pada baris yang sama. <br>
+        <hr>
+
+
+    <h1>Contoh Tabel 1</h1>
+    <h3>Jadwal ujian</h3>
+    <table width="90%" border="1" cellspacing="0" cellpadding="5">
+        <thead align="center" bgcolor="bluesea">
+            <tr>
+                <th>Hari</th>
+                <th>Jam ke-1</th>
+                <th>Jam ke-2</th>
+            </tr>
+        </thead>
+
+        <tbody align="center" bgcolor="lightblue">
+            <tr>
+                <td>Senin</td>
+                <td>Bahasa indonesia</td>
+                <td>Matematika</td>
+            </tr>
+
+            <tr>
+                <td>Selasa</td>
+                <td>Bahasa inggris</td>
+                <td>Kejuruan</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <hr>
+
+
+    <h1>Contoh Tabel dengan span</h1>
+    <h3>Jadwal ujian</h3>
+    <table width="90%" border="1" cellspacing="0" cellpadding="5">
+        <thead align="center">
+            <tr bgcolor="bluesea">
+                <th rowspan="2">Hari</th>
+                <th colspan="2">Jam</th>
+            </tr>
+            <tr bgcolor="yellow">
+                <th>Pertama</th>
+                <th>Kedua</th>
+            </tr>
+        </thead>
+
+        <tbody align="center" bgcolor="lightblue">
+            <tr>
+                <td>Senin</td>
+                <td>Bahasa indonesia</td>
+                <td>Matematika</td>
+            </tr>
+
+            <tr>
+                <td>Selasa</td>
+                <td>Bahasa inggris</td>
+                <td>Kejuruan</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <hr>
+    <br>
+
+
+
+</body>
+</html>

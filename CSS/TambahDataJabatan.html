@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Tambah Data Jabatan </title>
+</head>
+<body>
+    <header>
+        Apliasi Manajemen Shinobi
+    </header>
+
+    <div class="container">
+        <aside>
+            <ul class="menu">
+                <li><a href="Dashboard.html" class="aktif">Dashboard</a></li>
+                <li><a href="DataPegawai.html">Data Pegawai</a></li>
+                <li><a href="DataJabatan.html">Data Jabatan</a></li>
+                <li><a href="Login.html">Keluar</a></li>
+            </ul>
+        </aside>
+
+        <section class="main">
+            <h2 class="judul">Tambah Data Jabatan</h2>
+            <form method="post" action="DataJabatan.html">
+
+                <div class="form-group">
+                    <label for="nama">Nama Jabatan</label>
+                    <div class="input"><input type="text" id="nama"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="grade">Grade/Tingkatan</label>
+                    <div class="input">
+                        <select id="grade">
+                            <option value="SSS"> Grade SSS </option>
+                            <option value="SS"> Grade SS </option>
+                            <option value="S"> Grade S </option>
+                            <option value="A"> Grade A </option>
+                            <option value="B"> Grade B </option>
+                            <option value="C"> Grade C </option>
+                            <option value="D"> Grade D </option>
+                            <option value="E"> Grade E </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="gaji">Besaran Gaji</label>
+                    <div class="input"><input type="text" id="gaji"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="tanggal">Tanggal Penambahan</label>
+                    <div class="input"><input type="date" id="tanggal"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="acc">Di Setujui oleh</label>
+                    <div class="input">
+                        <select id="acc-jabatan">
+                            <option value="direktur"> Direktur </option>
+                            <option value="manajer"> Manajer </option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Simpan" class="tombol simpan">
+                    <input type="reset" value="Batal" class="tombol reset">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        Copyright &copy; Adam Prasetya (2023).
+    </footer>
+
+</body>
+</html>

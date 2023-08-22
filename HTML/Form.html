@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form input </title>
+</head>
+<body>
+
+    <h2>Macam macam form input</h2>
+    <form method="post" action="#">
+        
+        <label for="nama">Nama</label>
+        <input type="text" id="nama">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password">
+        <br>
+        <label for="jeniskelamin">Jenis Kelamin</label>
+        <input type="radio" id="jeniskelamin" value="L" > Laki-laki
+        <input type="radio" id="jeniskelamin" value="P" > Perempuan
+        <br>
+        <label for="status">Status</label>
+        <input type="checkbox" value="M" id="status"> Menikah
+        <input type="checkbox" value="B" id="status"> Belum Menikah
+        <br>
+        <label for="tgl_lahir">Tanggal Lahir</label>
+        <input type="date" id="tgl_lahir">
+        <br>
+        <label for="warna">Warna Favorite</label>
+        <input type="color" id="warna">
+        <br>
+        <label for="hp">No. Handphone</label>
+        <input type="number" id="hp">
+        <br>
+        <label for="berat">Berat Badan</label>
+        <input type="range" id="berat">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br>
+        <label for="website">Website kamu</label>
+        <input type="url" id="website">
+        <br>
+        <label for="jam">Jam Kerja</label>
+        <input type="time" id="jam">
+        <br>
+        <br>
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Batal">
+        <br>
+    </form>
+    <hr><hr>
+
+    <br>
+
+    <h2>Form Select</h2>
+    <form action="#">
+    <label for="nama">Nama </label>
+    <input type="text" id="nama">
+    <br>
+    <label for="jabatan">Jabatan</label>
+        <select id="jabatan">
+            <option value="directur">Directur</option>
+            <option value="manager">Manager</option>
+            <option value="marketing">Marketing</option>
+            <option value="sekertaris">Sekertaris</option>
+        </select>
+        <br><br>
+    <label for="komentar">Komentar</label> <br>
+    <textarea id="komentar" cols="60" rows="10"></textarea>
+    <br><br>
+    <input type="submit" value="Simpan">
+    <input type="reset" value="Batal">
+    </form>
+    <br><br>
+
+</body>
+</html>

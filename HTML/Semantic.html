@@ -1,0 +1,143 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Semantic HTML </title>
+    </head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            background-color: aqua;
+        }
+
+        nav {
+            width: 100%;
+            height: 50px;
+            background-color: yellow;
+        }
+
+        section {
+            width: 100%;
+            height: auto;
+            background-color: blue;
+        }
+
+        article{
+            width: 100%;
+            height: auto;
+            background-color: green;
+        }
+
+        aside {
+            width: 100%;
+            height: 50px;
+            background-color: goldenrod;
+        }
+
+        footer {
+            width: 100%;
+            height: 100px;
+            background-color: blueviolet;
+        }
+
+        .article-form{
+            
+            margin-left: 450px;
+            width: 400px;
+            background-color: lightgreen;
+            
+        }
+
+        .article-form select{
+            width: 100%;
+            height: 30px;
+        }
+
+        .article-form input{
+            width: 100%;
+            height: 30px;
+            
+        }
+
+        .article-form h2 {
+            text-align: center;
+        }
+
+        
+        input[type=submit] {
+            background-color: blue;
+            border: none;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        form{
+            width: 300px;
+            padding-bottom: 30px;
+            padding-left: 50px;
+        }
+
+
+    </style>
+    <body>
+        
+        <header> <!-- header -->
+            <p>ini header</p>
+        </header>
+        <nav> <!-- navbar -->
+            <p>ini navbar</p>
+            <center>000</center>
+        </nav>
+        <section> <!-- section -->
+            <p>ini section</p>
+            <article> <!-- article 1-->
+                
+                <div class="article-form">
+                    <h2>Form Select</h2>
+                    <br>
+                    <form action="#">
+                    <label for="nama">Nama </label>
+                    <input type="text" id="nama">
+                    <br><br>
+                    <label for="jabatan">Jabatan</label>
+                        <select id="jabatan">
+                            <option value="directur">Directur</option>
+                            <option value="manager">Manager</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="sekertaris">Sekertaris</option>
+                        </select>
+                        <br><br>
+                    <label for="komentar">Komentar</label> <br>
+                    <textarea id="komentar" cols="38" rows="10"></textarea>
+                    <br><br>
+                    <input type="submit" value="Simpan">
+                    <br><br>
+                    <input type="reset" value="Batal">
+                    </form>
+                </div>
+            
+            </article>
+
+            <article> <!-- article 2-->
+
+            </article>
+        </section>
+
+        <aside> <!-- aside -->
+            <p>ini aside</p>
+        </aside>
+
+        <footer> <!-- footer -->
+            <p>ini footer</p>
+
+        </footer>
+
+    </body>
+    </html>
